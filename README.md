@@ -1,5 +1,7 @@
 ![](README/Logo.png)
 
+# BNN Accelerator Simulator
+
 # Toochain of LAXOR Simulator
 The square on the middle is the BNN accelerator simulator named LAXOR Simulator. It has two part: one is front-end named Areca connecting between software and hardware and adapting data stream for hardware computation. Other is back-end imitating LAXOR architecture such as XOR and Popcount operation. It also calculates cycle count and estimate energy consumption and latency. The input for LAXOR Simulator is pre-trained BNN model which contains weights, bias, and four parameters of batch normalization. The configuration file has some parameter in terms of hardware architecture such as the number of PEs, the number of Latch-XOR per one PE, buffer size, and so on.
 
